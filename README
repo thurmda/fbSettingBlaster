@@ -4,3 +4,16 @@ To install referenced npm modules['csv'] issue a:
 
     
 npm install 
+
+
+
+
+Usage:
+'''' javascript
+node settingBlaster.js get|set [inputFile = applications.csv] [outputFile = results.csv]
+'''' javascript
+
+param[0] will default to set if it's anything other than 'get'.
+
+params 1 & 2 are optional. If not specified the inputFile will default to applications.csv
+The outputFile will default to results.csv
