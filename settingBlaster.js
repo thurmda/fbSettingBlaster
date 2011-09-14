@@ -48,10 +48,7 @@ function processData(app, i ){
 					err(e);	
 				}else{
 					if(data){
-						console.dir(app);
-						console.dir(data);
 						app = merge(app, data);
-						console.dir(app);
 					}
 				  	out_.write(app);
 				}
