@@ -1,17 +1,23 @@
+[https://github.com/thurmda/fbSettingBlaster]
 A node script to read/write facebook application settings en-masse.
 
+*INSTALL*
+<pre>
+git clone git@github.com:thurmda/fbSettingBlaster.git
+cd fbSettingBlaster
+</pre>
+
 To install referenced npm modules['csv'] issue a:
-
-    
+<pre>
 npm install 
+</pre>
 
 
 
-
-Usage:
-'''' javascript
+*Usage*
+<pre>
 node settingBlaster.js get|set [inputFile = applications.csv] [outputFile = results.csv]
-'''' javascript
+</pre>
 
 param[0] will default to set if it's anything other than 'get'.
 

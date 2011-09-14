@@ -3,7 +3,7 @@
   "name": "FBupdater",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/thurmda/fbSettingBlaster"
   },
   "main": "settingBlaster.js",
   "engines": {
